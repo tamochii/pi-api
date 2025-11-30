@@ -1,3 +1,14 @@
+# 忽略虚拟环境
+pi-api/
+venv/
+env/
+
+# 忽略 Python 缓存
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+
+# 忽略系统文件
+.DS_Store
+
+# 忽略IDE配置 (如果你用VSCode)
+.vscode/
